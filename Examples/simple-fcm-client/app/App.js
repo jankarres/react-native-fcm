@@ -69,6 +69,10 @@ class MainPage extends Component {
         console.log("APNS TOKEN (getFCMToken)", token);
       });
     }
+	  
+	  // topic example
+	  // FCM.subscribeToTopic('sometopic')
+	  // FCM.unsubscribeFromTopic('sometopic')
   }
 
   showLocalNotification() {
